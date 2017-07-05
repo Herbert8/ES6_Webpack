@@ -33,6 +33,7 @@ npm run dev
 ### IE8 的兼容
 由于 IE8 对于 ES5 还没有完全兼容，所以 Webpack 打包后的内容，可能会有点问题
 1. 需要在 Babel 的 presets 中，指定 `presets: [ ['es2015', {"loose": true}] ]`
+
 详情参考 [Webpack, IE8 and ES6 modules](https://stackoverflow.com/questions/41247876/webpack-ie8-and-es6-modules)
 ```
 // webpack.config.js
