@@ -20,7 +20,7 @@ npm run build     # 正常构建，打包后的 JS 已经混淆压缩
 ```
 访问 dist/index.html 即可看到效果
 
-### 构建方式说明：
+### 构建方式说明
 ```bash
 # 1、正常构建，打包后的 JS 已经混淆压缩
 npm run build
@@ -49,3 +49,5 @@ module: {
    ]
  }
 ```
+
+2. 使用 Webpack 构建过程中不要进行压缩（-p 参数，或者 UglifyJsPlugin）
